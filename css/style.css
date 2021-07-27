@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     height: 100%;
@@ -76,7 +77,7 @@ body {
     min-width: 140px;
 }
 
-label {
+.label {
     padding: 12px 12px 12px 0;
     display: inline-block;
 }
@@ -95,4 +96,22 @@ label {
     border-radius: 4px;
     resize: vertical;
 }
+
+.profile-radio-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-radio-content > label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile {
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+
 * { box-sizing: border-box; }
